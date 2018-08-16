@@ -1,0 +1,12 @@
+extensions:
+- add: target/sling-test-sample-0.1.0-SNAPSHOT.jar
+
+globals:
+  port: 8080
+  host: localhost
+  installsamplecontent: false
+
+tests:
+- add: SlingHello
+  properties:
+    path: /index.html
